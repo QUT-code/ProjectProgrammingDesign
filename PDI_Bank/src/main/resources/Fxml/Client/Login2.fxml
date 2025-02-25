@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="817.0" prefWidth="412.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.Bank.Controller.LoginController">
+   <children>
+      <Label layoutX="91.0" layoutY="340.0" text="Enter your Phone Number">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="160.0" layoutX="116.0" layoutY="138.0" stroke="BLACK" strokeType="INSIDE" width="180.0" />
+      <Text layoutX="42.0" layoutY="383.0" strokeType="OUTSIDE" strokeWidth="0.0" text="The Sim card linked to your ABA-registered number must be" wrappingWidth="328.08203125" />
+      <Text layoutX="164.0" layoutY="404.0" strokeType="OUTSIDE" strokeWidth="0.0" text="in this device." wrappingWidth="83.08203125" />
+      <Button layoutX="57.0" layoutY="751.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="298.0" text="Next" />
+      <VBox layoutX="42.0" layoutY="438.0" prefHeight="200.0" prefWidth="328.0">
+         <children>
+            <HBox prefHeight="30.0" prefWidth="328.0" spacing="20.0">
+               <children>
+                  <Label text="Country Code" />
+                  <Label layoutX="10.0" layoutY="10.0" text="Phone Number" />
+               </children>
+            </HBox>
+            <HBox prefHeight="100.0" prefWidth="200.0" spacing="20.0">
+               <children>
+                  <TextField prefHeight="25.0" prefWidth="74.0" />
+                  <TextField />
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>
